@@ -1,0 +1,348 @@
+    .container{
+            width: 100%;
+            height: 40rem;
+            font-family:"HelveticaNeue Light","STHeitiSC Light";
+            background:#1c1c1c
+        }
+        .perScreen{
+            width: 22.6667rem;
+            height: 31.3333rem;
+            background-color: #1c1c1c;
+            padding: 2rem 2rem 3rem 2rem;
+
+        }
+        .pic{
+            width: 4rem;
+            height: 4rem;
+            border-radius: 2rem;
+        }
+        #me{
+            width: 5rem;
+            height: 5rem;
+            border-radius: 2rem;
+            position: absolute;
+            left: 2rem;
+            top:3rem;
+        }
+        #answer{
+            width:20rem;
+            height:2rem;
+            line-height:2rem;
+            padding-bottom:0.5rem;
+            margin-top:2rem;
+        }
+        .dateInput{
+            width:3rem;
+            height:2rem;
+            background-color: #1c1c1c;
+            border-bottom: 1px solid gray;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            color: white;
+            font-size: 1.8rem;
+            line-height: 2rem;
+            text-align: center;
+
+        }
+        #next{
+            width:2rem;
+            height:2rem;
+            /*            display: none;*/
+        }
+        #you{
+            width: 5rem;
+            height: 5rem;
+            border-radius: 2rem;
+            position: absolute;
+            right: 2rem;
+            top:35rem;
+        }
+        .love{
+            width: 2rem;
+            height: 2.5rem;
+        }
+        #love0{
+            display: none;
+            position: absolute;
+            left: 13.2rem;
+            top: 18rem;
+        }
+        #love1{
+            display: none;
+            position: absolute;
+            left: 16.2rem;
+            top: 14rem;
+        }
+        #love2{
+            display: none;
+            position: absolute;
+            left: 19.2rem;
+            top: 10rem;
+        }
+        #love3{
+            display: none;
+            position: absolute;
+            left: 22.2rem;
+            top: 6rem;
+        }
+        #born{
+            font-size: 2rem;
+            margin-left: 0.5rem;
+        }
+        #together{
+            font-size: 2rem;
+            margin-left: 0.5rem;
+        }
+        #forever{
+            font-size: 2rem;
+            margin-left: 0.5rem;
+        }
+      #pic0{
+            position: absolute;
+            left:21rem;
+            top:8rem;
+            display: none;
+        }
+        #pic1{
+            position: absolute;
+            left:21rem;
+            top:15rem;
+            display: none;
+        }
+        #pic2{
+            position: absolute;
+            left:21rem;
+            top:22rem;
+            display: none;
+        }
+        #pic3{
+            position: absolute;
+            left:21rem;
+            top:29rem;
+            display: none;
+        }
+        #pic4{
+            position: absolute;
+            left:16rem;
+            top:11rem;
+            display: none;
+        }
+        #pic5{
+            position: absolute;
+            left:16rem;
+            top:18rem;
+            display: none;
+        }
+        #pic6{
+            position: absolute;
+            left:16rem;
+            top:25rem;
+            display: none;
+        }
+        #pic7{
+            position: absolute;
+            left:11rem;
+            top:14rem;
+            display: none;
+        }
+        #pic8{
+            position: absolute;
+            left:11rem;
+            top:21rem;
+            display: none;
+        }
+        #pic9{
+            position: absolute;
+            left:6rem;
+            top:18rem;
+            display: none;
+        }
+        #next1{
+            width:2rem;
+            height:2rem;
+            display: none;
+        }
+      #pic10{
+            position: absolute;
+            left:2rem;
+            top:8rem;
+            display: none;
+        }
+        #pic11{
+            position: absolute;
+            left:2rem;
+            top:15rem;
+            display: none;
+        }
+        #pic12{
+            position: absolute;
+            left:2rem;
+            top:22rem;
+            display: none;
+        }
+        #pic13{
+            position: absolute;
+            left:2rem;
+            top:29rem;
+            display: none;
+        }
+        #pic14{
+            position: absolute;
+            left:7rem;
+            top:11rem;
+            display: none;
+        }
+        #pic15{
+            position: absolute;
+            left:7rem;
+            top:18rem;
+            display: none;
+        }
+        #pic16{
+            position: absolute;
+            left:7rem;
+            top:25rem;
+            display: none;
+        }
+        #pic17{
+            position: absolute;
+            left:12rem;
+            top:14rem;
+            display: none;
+        }
+        #pic18{
+            position: absolute;
+            left:12rem;
+            top:21rem;
+            display: none;
+        }
+        #pic19{
+            position: absolute;
+            left:17rem;
+            top:18rem;
+            display: none;
+        }
+        #next2{
+            width:2rem;
+            height:2rem;
+            display: none;
+        }
+        #next3{
+            width:2rem;
+            height:2rem;
+            display: none;
+        }
+        #places{
+            width: 100%;
+            height: 10rem;
+            color: white;
+        }
+        #firstWord{
+            font-size: 1rem;
+            float: left;
+            line-height: 2.8rem;
+        }
+        #secondWord{
+            font-size: 2rem;
+            float: left;
+            line-height: 2rem;
+        }
+        #thirdWord{
+            font-size: 1rem;
+            float: left;
+            line-height: 2.8rem;
+        }
+        .card-container-5 {
+            margin-left: 0.2rem;
+            position: relative;
+            width: 22rem;
+            height: 17rem;
+            cursor: pointer;
+            cursor: hand;
+        }
+        .card-container-5 .card {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 22rem;
+            height: 17rem;
+            -webkit-transition: all .3s ease;
+            transition: all .3s ease;
+            border-radius: 0.2rem;
+            background-color: chocolate;
+            box-shadow: 0 0.2rem 0.75rem 0 rgba(0, 0, 0, 0.2);
+            -webkit-transform-origin: bottom left;
+            transform-origin: bottom left;
+        }
+        .card-container-5 .card:last-of-type {
+            z-index: 80;
+        }
+        .card-container-5 .card:nth-last-of-type(2) {
+            z-index: 90;
+        }
+        .card-container-5 .card:first-of-type {
+            z-index: 100;
+        }
+        .card-container-5:hover .card {
+            border-bottom-left-radius: 0.82rem;
+        }
+        .card-container-5:hover .card:first-of-type {
+            -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+        }
+        .card-container-5:hover .card:nth-of-type(2) {
+            -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+        }
+        .card-container-5:hover .card:last-of-type {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+        .imgs{
+            width: 22rem;
+            height: 17rem;
+        }
+        .picFrame {
+            background-color:#CCC;
+            border: #CCC 1px solid;
+            width: 830px;
+            height: 1250px;
+            margin: auto;
+            margin-top: 40px;
+            position: relative;/*启动相对定位 让子集元素能相对与 父级元素定位*/
+            overflow: hidden;
+        }
+        .picFrame .picItem {
+            position: absolute;/*开启绝对定位  相对于父级元素定位*/
+            left: 0;
+            top: 0;
+            width:830px;
+            height: 1250px;
+        }
+        .picItem img{
+            width:830px;
+            height: 1250px;
+        }
+        
+.ball {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  background-color: #1c1c1c;
+  border: none;
+}
+
+.htmleaf-container{
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+ 
