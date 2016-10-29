@@ -28,7 +28,7 @@
             var tr ="<input type='text' id='movie' class='dateInput' style='width:16rem'>";
             $("#answer").append(tr);
             $("#confirmBtn").empty();
-            var trr = "<span id='confirm1' onclick='confirm1()'>Confirm</span>";
+            var trr = "<span id='confirm1' onclick='confirm1()'>我确定</span>";
             $("#confirmBtn").append(trr);
             $("#me").attr("src","imgs/u0.png");
             $("#you").attr("src","imgs/me0.jpg");
@@ -38,6 +38,7 @@
             $("#day").val("");
             $("#me").attr("src","imgs/u00.jpg");
             $("#you").attr("src","imgs/me00.jpg");
+	    $("#confirm0").html("我真的确定！");
         }
     }
 
@@ -55,7 +56,7 @@
             $("#answer").append(tr);
             $("#answer").css("height","7rem");
             $("#confirmBtn").empty();
-            var trr ="<span id='confirm2' onclick='confirm2()'>Confirm</span>";
+            var trr ="<span id='confirm2' onclick='confirm2()'>我确定</span>";
             $("#confirmBtn").append(trr);
             $("#me").attr("src","imgs/u0.png");
             $("#you").attr("src","imgs/me0.jpg");
@@ -63,6 +64,7 @@
             $("#movie").val("");
             $("#me").attr("src","imgs/u00.jpg");
             $("#you").attr("src","imgs/me00.jpg");
+	    $("#confirm1").html("我真的确定！");
         }
     }
 
@@ -77,7 +79,7 @@
                     "<input type='radio' name='gift1' value='3' style='font-size:1.3rem'>我的微信号<br>";
             $("#answer").append(tr);
             $("#confirmBtn").empty();
-            var trr ="<span id='confirm3' onclick='confirm3()'>Confirm</span>";
+            var trr ="<span id='confirm3' onclick='confirm3()'>我确定</span>";
             $("#confirmBtn").append(trr);
             $("#me").attr("src","imgs/u0.png");
             $("#you").attr("src","imgs/me0.jpg");
@@ -85,6 +87,7 @@
             // $("input[name='gift0']:checked").attr("chechked",false);
             $("#me").attr("src","imgs/u00.jpg");
             $("#you").attr("src","imgs/me00.jpg");
+	    $("#confirm2").html("我真的确定！");
         }
 
     }
@@ -100,13 +103,14 @@
                     "<input type='radio' name='gift2' value='3' style='font-size:1.3rem'>超级无敌变态爱<br>";
             $("#answer").append(tr);
             $("#confirmBtn").empty();
-            var trr ="<span id='confirm4' onclick='confirm4()'>Confirm</span>";
+            var trr ="<span id='confirm4' onclick='confirm4()'>我确定</span>";
             $("#confirmBtn").append(trr);
             $("#me").attr("src","imgs/u0.png");
             $("#you").attr("src","imgs/me0.jpg");
         }else{
             $("#me").attr("src","imgs/u00.jpg");
             $("#you").attr("src","imgs/me00.jpg");
+	    $("#confirm3").html("我真的确定！");
         }
 
     }
@@ -127,6 +131,7 @@
         }else{
             $("#me").attr("src","imgs/u00.jpg");
             $("#you").attr("src","imgs/me00.jpg");
+	    $("#confirm4").html("我真的确定！");
         }
     }
 
