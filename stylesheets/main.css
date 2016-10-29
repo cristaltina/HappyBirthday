@@ -46,9 +46,9 @@
 
         }
         #next{
-            width:2rem;
-            height:2rem;
-            /*            display: none;*/
+            width:3rem;
+            height:1.5rem;
+            display: none;
         }
         #you{
             width: 5rem;
@@ -159,8 +159,8 @@
             display: none;
         }
         #next1{
-            width:2rem;
-            height:2rem;
+            width:3rem;
+            height:1.5rem;
             display: none;
         }
       #pic10{
@@ -224,18 +224,18 @@
             display: none;
         }
         #next2{
-            width:2rem;
-            height:2rem;
+            width:3rem;
+            height:1.5rem;
             display: none;
         }
         #next3{
-            width:2rem;
-            height:2rem;
+            width:3rem;
+            height:1.5rem;
             display: none;
         }
         #next4{
-            width:2rem;
-            height:2rem;
+            width:3rem;
+            height:1.5rem;
             display: none;
         }
         #places{
