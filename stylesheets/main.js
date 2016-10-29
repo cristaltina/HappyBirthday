@@ -23,7 +23,7 @@
         month = $("#month").val();
         day = $("#day").val();
         if(year=="2014"&&month=="12"&&day=="26"){
-            $("#question").text("First Movie");
+            $("#question").text("我们看的第一部电影是什么？");
             $("#answer").empty();
             var tr ="<input type='text' id='movie' class='dateInput' style='width:16rem'>";
             $("#answer").append(tr);
@@ -44,14 +44,14 @@
     function confirm1(){
         movie = $("#movie").val();
         if(movie=="匆匆那年"){
-            $("#question").text("First gift u");
+            $("#question").text("你送给我的第一份礼物是什么");
             $("#answer").empty();
             $("#answer").css("text-align","left");
             $("#answer").css("margin-left","3rem");
-            var tr ="<input type='radio' name='gift0' value='0' style='font-size:1.3rem'>aa<br>" +
-                    "<input type='radio' name='gift0' value='1' style='font-size:1.3rem'>bb<br>" +
-                    "<input type='radio' name='gift0' value='2' style='font-size:1.3rem'>cc<br>" +
-                    "<input type='radio' name='gift0' value='3' style='font-size:1.3rem'>dd<br>";
+            var tr ="<input type='radio' name='gift0' value='0' style='font-size:1.3rem'>星巴克的杯子<br>" +
+                    "<input type='radio' name='gift0' value='1' style='font-size:1.3rem'>饮料<br>" +
+                    "<input type='radio' name='gift0' value='2' style='font-size:1.3rem'>你迷人的微笑<br>" +
+                    "<input type='radio' name='gift0' value='3' style='font-size:1.3rem'>你的微信号<br>";
             $("#answer").append(tr);
             $("#answer").css("height","7rem");
             $("#confirmBtn").empty();
@@ -69,12 +69,12 @@
     function confirm2(){
         giftu = $("input[name='gift0']:checked").val();
         if(giftu == 3){
-            $("#question").text("First gift me");
+            $("#question").text("我送你的第一份礼物是什么");
             $("#answer").empty();
-            var tr ="<input type='radio' name='gift1' value='0' style='font-size:1.3rem'>aa<br>" +
-                    "<input type='radio' name='gift1' value='1' style='font-size:1.3rem'>bb<br>" +
-                    "<input type='radio' name='gift1' value='2' style='font-size:1.3rem'>cc<br>" +
-                    "<input type='radio' name='gift1' value='3' style='font-size:1.3rem'>dd<br>";
+            var tr ="<input type='radio' name='gift1' value='0' style='font-size:1.3rem'>衣服<br>" +
+                    "<input type='radio' name='gift1' value='1' style='font-size:1.3rem'>四驱车模型<br>" +
+                    "<input type='radio' name='gift1' value='2' style='font-size:1.3rem'>我迷人的微笑<br>" +
+                    "<input type='radio' name='gift1' value='3' style='font-size:1.3rem'>我的微信号<br>";
             $("#answer").append(tr);
             $("#confirmBtn").empty();
             var trr ="<span id='confirm3' onclick='confirm3()'>Confirm</span>";
@@ -92,12 +92,12 @@
     function confirm3(){
         giftme = $("input[name='gift1']:checked").val();
         if(giftme == 3){
-            $("#question").text("me?");
+            $("#question").text("爱我嘛？");
             $("#answer").empty();
-            var tr ="<input type='radio' name='gift2' value='0' style='font-size:1.3rem'>aa<br>" +
-                    "<input type='radio' name='gift2' value='1' style='font-size:1.3rem'>bb<br>" +
-                    "<input type='radio' name='gift2' value='2' style='font-size:1.3rem'>cc<br>" +
-                    "<input type='radio' name='gift2' value='3' style='font-size:1.3rem'>dd<br>";
+            var tr ="<input type='radio' name='gift2' value='0' style='font-size:1.3rem'>爱<br>" +
+                    "<input type='radio' name='gift2' value='1' style='font-size:1.3rem'>超级爱<br>" +
+                    "<input type='radio' name='gift2' value='2' style='font-size:1.3rem'>超级无敌爱<br>" +
+                    "<input type='radio' name='gift2' value='3' style='font-size:1.3rem'>超级无敌变态爱<br>";
             $("#answer").append(tr);
             $("#confirmBtn").empty();
             var trr ="<span id='confirm4' onclick='confirm4()'>Confirm</span>";
@@ -251,9 +251,9 @@
 
     }
     function initPlaces() {
-        var s = 'Hello World!';
-        var ss = 'AAA、BB';
-        var sss = 'blabla'
+        var s = '我们一起走过很多路，去过很多地方.我们去过';
+        var ss = '台北、高雄、花莲、垦丁、连云港、桂林、烟台、无锡、上海...';
+        var sss = '我们还会一起去更多的地方，看更多的风景，发生更多的故事...'
         var index = 0;
         var index2 = 0;
         var index3 = 0;
@@ -425,10 +425,16 @@
         $("#screen5").show();
 	$("#word0").show(1000,function(){
 	   $("#word1").show(1000,function(){
-	      initBall0();
+		$("#word2").show(1000,function(){
+		    $("#word3").show(1000,function(){
+			 $("#word4").show(1000,function(){
+		initBall0();
 	      setTimeout("initBall1()",3500);
 	      setTimeout("initBall2()",7000);
 	      setTimeout("initBall3()",10500);
+			})
+		    })
+	       })
 	   })
 	})
     }
