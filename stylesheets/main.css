@@ -240,17 +240,14 @@
         }
         #firstWord{
             font-size: 1rem;
-            float: left;
             line-height: 2.8rem;
         }
         #secondWord{
             font-size: 1rem;
-            float: left;
             line-height: 2rem;
         }
         #thirdWord{
             font-size: 1rem;
-            float: left;
             line-height: 2.8rem;
         }
         .card-container-5 {
