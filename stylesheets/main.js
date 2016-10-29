@@ -30,14 +30,14 @@
             $("#confirmBtn").empty();
             var trr = "<span id='confirm1' onclick='confirm1()'>Confirm</span>";
             $("#confirmBtn").append(trr);
-            $("#me").attr("src","imgs/default_avatar.png");
-            $("#you").attr("src","imgs/default_avatar.png");
+            $("#me").attr("src","imgs/u0.png");
+            $("#you").attr("src","imgs/me0.jpg");
         }else{
             $("#year").val("");
             $("#month").val("");
             $("#day").val("");
-            $("#me").attr("src","imgs/icon_comments_big_2@2x.png");
-            $("#you").attr("src","imgs/icon_comments_big_2@2x.png");
+            $("#me").attr("src","imgs/u00.jpg");
+            $("#you").attr("src","imgs/me00.jpg");
         }
     }
 
@@ -57,12 +57,12 @@
             $("#confirmBtn").empty();
             var trr ="<span id='confirm2' onclick='confirm2()'>Confirm</span>";
             $("#confirmBtn").append(trr);
-            $("#me").attr("src","imgs/default_avatar.png");
-            $("#you").attr("src","imgs/default_avatar.png");
+            $("#me").attr("src","imgs/u0.png");
+            $("#you").attr("src","imgs/me0.jpg");
         }else{
             $("#movie").val("");
-            $("#me").attr("src","imgs/icon_comments_big_2@2x.png");
-            $("#you").attr("src","imgs/icon_comments_big_2@2x.png");
+            $("#me").attr("src","imgs/u00.jpg");
+            $("#you").attr("src","imgs/me00.jpg");
         }
     }
 
@@ -79,12 +79,12 @@
             $("#confirmBtn").empty();
             var trr ="<span id='confirm3' onclick='confirm3()'>Confirm</span>";
             $("#confirmBtn").append(trr);
-            $("#me").attr("src","imgs/default_avatar.png");
-            $("#you").attr("src","imgs/default_avatar.png");
+            $("#me").attr("src","imgs/u0.png");
+            $("#you").attr("src","imgs/me0.jpg");
         }else{
             // $("input[name='gift0']:checked").attr("chechked",false);
-            $("#me").attr("src","imgs/icon_comments_big_2@2x.png");
-            $("#you").attr("src","imgs/icon_comments_big_2@2x.png");
+            $("#me").attr("src","imgs/u00.jpg");
+            $("#you").attr("src","imgs/me00.jpg");
         }
 
     }
@@ -102,11 +102,11 @@
             $("#confirmBtn").empty();
             var trr ="<span id='confirm4' onclick='confirm4()'>Confirm</span>";
             $("#confirmBtn").append(trr);
-            $("#me").attr("src","imgs/default_avatar.png");
-            $("#you").attr("src","imgs/default_avatar.png");
+            $("#me").attr("src","imgs/u0.png");
+            $("#you").attr("src","imgs/me0.jpg");
         }else{
-            $("#me").attr("src","imgs/icon_comments_big_2@2x.png");
-            $("#you").attr("src","imgs/icon_comments_big_2@2x.png");
+            $("#me").attr("src","imgs/u00.jpg");
+            $("#you").attr("src","imgs/me00.jpg");
         }
 
     }
@@ -125,7 +125,8 @@
             $("#love3").show(6000);
             $("#next").show(6000);
         }else{
-
+            $("#me").attr("src","imgs/u00.jpg");
+            $("#you").attr("src","imgs/me00.jpg");
         }
     }
 
