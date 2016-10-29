@@ -251,9 +251,9 @@
 
     }
     function initPlaces() {
-        var s = '我们一起走过很多路，去过很多地方.我们去过';
-        var ss = '台湾、桂林、烟台、无锡、上海...';
-        var sss = '我们还会一起去更多的地方，看更多的风景，发生更多的故事...'
+        var s = '我们一起走过很多路，去过很多地方';
+        var ss = '爬山 下海 听演唱会 搜寻好吃的小馆子';
+        var sss = '希望我们还会一起去更多的地方，看更多的风景，发生更多的故事...'
         var index = 0;
         var index2 = 0;
         var index3 = 0;
@@ -446,7 +446,7 @@
    item0
       .animate([
         {
-          translate: [0, 300, 0], //基调下落高度是 300 - 0
+          translate: [0, 350, 0], //基调下落高度是 300 - 0
           ease: 'ease-in-quad'
         },{
           translate: [10, 0, 0] //基调X Y坐标
@@ -598,7 +598,7 @@
       ], 350)
       .animate([
         {
-          translate: [0, 500, 0],
+          translate: [0, 450, 0],
           ease: 'ease-in-quad'
         },{
           translate: [80, 0, 0]
@@ -619,7 +619,7 @@
       item3
       .animate([
         {
-          translate: [0, 800, 0], //基调下落高度是 300 - 0
+          translate: [0, 750, 0], //基调下落高度是 300 - 0
           ease: 'ease-in-quad'
         },{
           translate: [180, 0, 0] //基调X Y坐标
@@ -663,7 +663,7 @@
       ], 350)
       .animate([
         {
-          translate: [0, 530, 0],
+          translate: [0, 480, 0],
           ease: 'ease-in-quad'
         },{
           translate: [100, 0, 0]
