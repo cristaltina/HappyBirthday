@@ -253,7 +253,7 @@
     function initPlaces() {
         var s = '我们一起走过很多路，去过很多地方';
         var ss = '爬山 下海 听演唱会 搜寻好吃的小馆子';
-        var sss = '希望我们还会一起去更多的地方，看更多的风景，发生更多的故事...'
+        var sss = '希望我们还会一起看更多的风景，发生更多的故事...'
         var index = 0;
         var index2 = 0;
         var index3 = 0;
