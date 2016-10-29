@@ -59,8 +59,8 @@
             top:35rem;
         }
         .love{
-            width: 2rem;
-            height: 2.5rem;
+            width: 1.5rem;
+            height: 2.3rem;
         }
         #love0{
             display: none;
@@ -234,7 +234,7 @@
             display: none;
         }
         #places{
-            width: 100%;
+            width: 22.6667rem;
             height: 10rem;
             color: white;
         }
@@ -298,6 +298,12 @@
         .card-container-5:hover .card:last-of-type {
             -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
+        }
+        .words{
+            font-size:1rem;
+	    color:white;
+	    display:none;
+	    margin:1rem 0 0 0;
         }
         .imgs{
             width: 22rem;
