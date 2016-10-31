@@ -49,10 +49,10 @@
             $("#answer").empty();
             $("#answer").css("text-align","left");
             $("#answer").css("margin-left","3rem");
-            var tr ="<input type='radio' name='gift0' value='0' style='font-size:1.3rem'>星巴克的杯子<br>" +
-                    "<input type='radio' name='gift0' value='1' style='font-size:1.3rem'>饮料<br>" +
-                    "<input type='radio' name='gift0' value='2' style='font-size:1.3rem'>你迷人的微笑<br>" +
-                    "<input type='radio' name='gift0' value='3' style='font-size:1.3rem'>你的微信号<br>";
+            var tr ="<input type='radio' name='gift0' value='0' style='font-size:1.3rem;width:0.5rem;height:0.5rem'>星巴克的杯子<br>" +
+                    "<input type='radio' name='gift0' value='1' style='font-size:1.3rem;width:0.5rem;height:0.5rem'>饮料<br>" +
+                    "<input type='radio' name='gift0' value='2' style='font-size:1.3rem;width:0.5rem;height:0.5rem'>你迷人的微笑<br>" +
+                    "<input type='radio' name='gift0' value='3' style='font-size:1.3rem;width:0.5rem;height:0.5rem'>你的微信号<br>";
             $("#answer").append(tr);
             $("#answer").css("height","7rem");
             $("#confirmBtn").empty();
@@ -73,10 +73,10 @@
         if(giftu == 3){
             $("#question").text("我送你的第一份礼物是什么");
             $("#answer").empty();
-            var tr ="<input type='radio' name='gift1' value='0' style='font-size:1.3rem'>衣服<br>" +
-                    "<input type='radio' name='gift1' value='1' style='font-size:1.3rem'>四驱车模型<br>" +
-                    "<input type='radio' name='gift1' value='2' style='font-size:1.3rem'>我迷人的微笑<br>" +
-                    "<input type='radio' name='gift1' value='3' style='font-size:1.3rem'>我的微信号<br>";
+            var tr ="<input type='radio' name='gift1' value='0' style='font-size:1.3rem;width:0.5rem;height:0.5rem'>衣服<br>" +
+                    "<input type='radio' name='gift1' value='1' style='font-size:1.3rem;width:0.5rem;height:0.5rem'>四驱车模型<br>" +
+                    "<input type='radio' name='gift1' value='2' style='font-size:1.3rem;width:0.5rem;height:0.5rem'>我迷人的微笑<br>" +
+                    "<input type='radio' name='gift1' value='3' style='font-size:1.3rem;width:0.5rem;height:0.5rem'>我的微信号<br>";
             $("#answer").append(tr);
             $("#confirmBtn").empty();
             var trr ="<span id='confirm3' onclick='confirm3()'>我确定</span>";
@@ -97,10 +97,10 @@
         if(giftme == 3){
             $("#question").text("爱我嘛？");
             $("#answer").empty();
-            var tr ="<input type='radio' name='gift2' value='0' style='font-size:1.3rem'>爱<br>" +
-                    "<input type='radio' name='gift2' value='1' style='font-size:1.3rem'>超级爱<br>" +
-                    "<input type='radio' name='gift2' value='2' style='font-size:1.3rem'>超级无敌爱<br>" +
-                    "<input type='radio' name='gift2' value='3' style='font-size:1.3rem'>超级无敌变态爱<br>";
+            var tr ="<input type='radio' name='gift2' value='0' style='font-size:1.3rem;width:0.5rem;height:0.5rem'>爱<br>" +
+                    "<input type='radio' name='gift2' value='1' style='font-size:1.3rem;width:0.5rem;height:0.5rem'>超级爱<br>" +
+                    "<input type='radio' name='gift2' value='2' style='font-size:1.3rem;width:0.5rem;height:0.5rem'>超级无敌爱<br>" +
+                    "<input type='radio' name='gift2' value='3' style='font-size:1.3rem;width:0.5rem;height:0.5rem'>超级无敌变态爱<br>";
             $("#answer").append(tr);
             $("#confirmBtn").empty();
             var trr ="<span id='confirm4' onclick='confirm4()'>我确定</span>";
