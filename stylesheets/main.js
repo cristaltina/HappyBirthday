@@ -326,26 +326,26 @@
     function initImgs1() {
         //启动引擎  FPS 刷新率  刷新率越高一般看起来越流畅 但是也要看电脑的性能！一般游戏是60FPS 射击类游戏 120FPS以上
         move(10,'move()')//5=200FPS 6=166FPS 7=142FPS 8=125FPS 9=111FPS 10=100FPS
-        addObj($(".picFrame>.picItem").eq(0),830,0,1250,'complete(0)')// JQ对象 ,X位置,Y位置,用时
+        addObj($(".picFrame>.picItem").eq(0),830,0,2000,'complete(0)')// JQ对象 ,X位置,Y位置,用时
     }
 
     function complete(i){
         if(i==0){
-            addObj($(".picFrame>.picItem").eq(0),0,1250,2000,'complete(1)')
+            addObj($(".picFrame>.picItem").eq(1),0,1250,2000,'complete(1)')
         }else if(i==1){
-            addObj($(".picFrame>.picItem").eq(1),830,1250,2000,'complete(2)')
+            addObj($(".picFrame>.picItem").eq(2),830,0,2000,'complete(2)')
         }else if(i==2){
-            addObj($(".picFrame>.picItem").eq(2),830,-1250,2000,'complete(3)')
+            addObj($(".picFrame>.picItem").eq(3),830,-1250,2000,'complete(3)')
         }else if(i==3){
-            addObj($(".picFrame>.picItem").eq(3),-830,-1250,2000,'complete(4)')
+            addObj($(".picFrame>.picItem").eq(4),-830,1250,2000,'complete(4)')
         }else if(i==4){
-            addObj($(".picFrame>.picItem").eq(4),830,1250,2000,'complete(5)')
+            addObj($(".picFrame>.picItem").eq(5),830,1250,2000,'complete(5)')
         }else if(i==5){
-            addObj($(".picFrame>.picItem").eq(5),0,1250,1000,'complete(6)')
+            addObj($(".picFrame>.picItem").eq(6),-830,-1250,2000,'complete(6)')
         }else if(i==6){
-            addObj($(".picFrame>.picItem").eq(6),830,1250,1000,'complete(7)')
+            addObj($(".picFrame>.picItem").eq(7),830,1250,2000,'complete(7)')
         }else if(i==7){
-            addObj($(".picFrame>.picItem").eq(7),830,-1250,1000,'complete(8)')
+            addObj($(".picFrame>.picItem").eq(7),0,0,1000,'complete(8)')
         }else if(i==8){
             addObj($(".picFrame>.picItem").eq(0),0,0,1000,'complete(9)')
         }else if(i==9){
