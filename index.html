@@ -12,7 +12,7 @@
 </head>
 <body style="font-size: 12px;margin:0;background:#1c1c1c">
 <!-- <embed src="bgm.mp3" width=0 height=0 type="audio/mpeg" loop="true" autostart="true"/> -->
-<audio autoplay="autoplay" loop="loop">
+<audio id="bgaudio" loop="loop">
   <source src="bgm.mp3" type="audio/mpeg" />
 </audio>
 <div class="container">
@@ -169,6 +169,7 @@
     </div>
 </div>
 <script >
+    $("#bgaudio").play();
     console.log(document.getElementsByTagName("body")[0].offsetWidth);
     var rem =document.getElementsByTagName("body")[0].offsetWidth /320 *12;
     var h = document.getElementsByTagName('html')[0];
