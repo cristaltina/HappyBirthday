@@ -331,21 +331,21 @@
 
     function complete(i){
         if(i==0){
-            addObj($(".picFrame>.picItem").eq(1),0,1250,2000,'complete(1)')
+            addObj($(".picFrame>.picItem").eq(0),0,1250,2000,'complete(1)')
         }else if(i==1){
-            addObj($(".picFrame>.picItem").eq(2),830,1250,2000,'complete(2)')
+            addObj($(".picFrame>.picItem").eq(1),830,1250,2000,'complete(2)')
         }else if(i==2){
-            addObj($(".picFrame>.picItem").eq(3),830,-1250,2000,'complete(3)')
+            addObj($(".picFrame>.picItem").eq(2),830,-1250,2000,'complete(3)')
         }else if(i==3){
-            addObj($(".picFrame>.picItem").eq(4),-830,-1250,2000,'complete(4)')
+            addObj($(".picFrame>.picItem").eq(3),-830,-1250,2000,'complete(4)')
         }else if(i==4){
-            addObj($(".picFrame>.picItem").eq(5),830,1250,2000,'complete(5)')
+            addObj($(".picFrame>.picItem").eq(4),830,1250,2000,'complete(5)')
         }else if(i==5){
-            addObj($(".picFrame>.picItem").eq(4),0,0,1000,'complete(6)')
+            addObj($(".picFrame>.picItem").eq(5),0,1250,1000,'complete(6)')
         }else if(i==6){
-            addObj($(".picFrame>.picItem").eq(2),0,0,1000,'complete(7)')
+            addObj($(".picFrame>.picItem").eq(6),830,1250,1000,'complete(7)')
         }else if(i==7){
-            addObj($(".picFrame>.picItem").eq(1),0,0,1000,'complete(8)')
+            addObj($(".picFrame>.picItem").eq(7),830,-1250,1000,'complete(8)')
         }else if(i==8){
             addObj($(".picFrame>.picItem").eq(0),0,0,1000,'complete(9)')
         }else if(i==9){
