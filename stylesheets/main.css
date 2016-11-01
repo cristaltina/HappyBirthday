@@ -296,7 +296,7 @@
         .card-container-5 .card:last-of-type {
             z-index: 60;
         }
-        .card-container-5:hover .card {
+/*         .card-container-5:hover .card {
             border-bottom-left-radius: 0.82rem;
         }
         .card-container-5:hover .card:first-of-type {
@@ -310,7 +310,7 @@
         .card-container-5:hover .card:last-of-type {
             -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
-        }
+        } */
         .words{
             font-size:1rem;
 	    color:white;
