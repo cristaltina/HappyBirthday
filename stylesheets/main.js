@@ -326,30 +326,66 @@
     function initImgs1() {
         //启动引擎  FPS 刷新率  刷新率越高一般看起来越流畅 但是也要看电脑的性能！一般游戏是60FPS 射击类游戏 120FPS以上
         move(10,'move()')//5=200FPS 6=166FPS 7=142FPS 8=125FPS 9=111FPS 10=100FPS
-        addObj($(".picFrame>.picItem").eq(0),830,0,2000,'complete(0)')// JQ对象 ,X位置,Y位置,用时
+        addObj($(".picFrame>.picItem").eq(0),830,0,3000,'complete(0)')// JQ对象 ,X位置,Y位置,用时
     }
 
-    function complete(i){
+    function complete(i){ 
         if(i==0){
             addObj($(".picFrame>.picItem").eq(1),0,1250,2000,'complete(1)')
         }else if(i==1){
-            addObj($(".picFrame>.picItem").eq(2),830,0,2000,'complete(2)')
+            addObj($(".picFrame>.picItem").eq(2),-830,0,2000,'complete(2)')
         }else if(i==2){
             addObj($(".picFrame>.picItem").eq(3),830,-1250,2000,'complete(3)')
         }else if(i==3){
             addObj($(".picFrame>.picItem").eq(4),-830,1250,2000,'complete(4)')
         }else if(i==4){
-            addObj($(".picFrame>.picItem").eq(5),830,1250,2000,'complete(5)')
+            addObj($(".picFrame>.picItem").eq(5),0,-1250,2000,'complete(5)')
         }else if(i==5){
             addObj($(".picFrame>.picItem").eq(6),-830,-1250,2000,'complete(6)')
         }else if(i==6){
             addObj($(".picFrame>.picItem").eq(7),830,1250,2000,'complete(7)')
         }else if(i==7){
-            addObj($(".picFrame>.picItem").eq(7),0,0,1000,'complete(8)')
+            addObj($(".picFrame>.picItem").eq(8),830,0,1000,'complete(8)')
         }else if(i==8){
-            addObj($(".picFrame>.picItem").eq(0),0,0,1000,'complete(9)')
+            addObj($(".picFrame>.picItem").eq(9),0,1250,1000,'complete(9)')
         }else if(i==9){
-            $("#next4").show();
+	    addObj($(".picFrame>.picItem").eq(10),-830,0,1000,'complete(10)')
+        }else if(i==10){
+	    addObj($(".picFrame>.picItem").eq(11),830,-1250,1000,'complete(11)')
+        }else if(i==11){
+	    addObj($(".picFrame>.picItem").eq(12),-830,1250,1000,'complete(12)')
+        }else if(i==12){
+	    addObj($(".picFrame>.picItem").eq(13),0,-1250,1000,'complete(13)')
+        }else if(i==13){
+	    addObj($(".picFrame>.picItem").eq(13),0,0,1000,'complete(14)')
+        }else if(i==14){
+	    addObj($(".picFrame>.picItem").eq(12),0,0,1000,'complete(15)')
+        }else if(i==15){
+	    addObj($(".picFrame>.picItem").eq(11),0,0,1000,'complete(16)')
+        }else if(i==16){
+	    addObj($(".picFrame>.picItem").eq(10),0,0,1000,'complete(17)')
+        }else if(i==17){
+	    addObj($(".picFrame>.picItem").eq(9),0,0,1000,'complete(18)')
+        }else if(i==18){
+	    addObj($(".picFrame>.picItem").eq(8),0,0,1000,'complete(19)')
+        }else if(i==19){
+	    addObj($(".picFrame>.picItem").eq(7),0,0,1000,'complete(20)')
+        }else if(i==20){
+	    addObj($(".picFrame>.picItem").eq(6),0,0,1000,'complete(21)')
+        }else if(i==21){
+	    addObj($(".picFrame>.picItem").eq(5),0,0,1000,'complete(22)')
+        }else if(i==22){
+	    addObj($(".picFrame>.picItem").eq(4),0,0,1000,'complete(23)')
+        }else if(i==23){
+	    addObj($(".picFrame>.picItem").eq(3),0,0,1000,'complete(24)')
+        }else if(i==24){
+	    addObj($(".picFrame>.picItem").eq(2),0,0,1000,'complete(25)')
+        }else if(i==25){
+	    addObj($(".picFrame>.picItem").eq(1),0,0,1000,'complete(26)')
+        }else if(i==26){
+	    addObj($(".picFrame>.picItem").eq(0),0,0,1000,'complete(27)')
+        }else if(i==27){
+	    $("#next4").show();
         }
 
     }
