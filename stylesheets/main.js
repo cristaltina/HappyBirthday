@@ -260,7 +260,7 @@
     function initPlaces() {
         var s = '我们一起走过很多路，去过很多地方';
         var ss = '爬山 下海 听演唱会 搜寻好吃的小馆子';
-        var sss = '希望我们还会一起去更多的地方，看更多的风景，发生更多的故事...'
+        var sss = '希望我们还会一起去更多的地方，看更多的风景，发生更多有趣的故事...'
         var index = 0;
         var index2 = 0;
         var index3 = 0;
@@ -331,59 +331,59 @@
 
     function complete(i){ 
         if(i==0){
-            addObj($(".picFrame>.picItem").eq(1),0,1250,2000,'complete(1)')
+            addObj($(".picFrame>.picItem").eq(1),0,1250,2500,'complete(1)')
         }else if(i==1){
-            addObj($(".picFrame>.picItem").eq(2),-830,0,2000,'complete(2)')
+            addObj($(".picFrame>.picItem").eq(2),-830,0,2500,'complete(2)')
         }else if(i==2){
-            addObj($(".picFrame>.picItem").eq(3),830,-1250,2000,'complete(3)')
+            addObj($(".picFrame>.picItem").eq(3),830,-1250,2500,'complete(3)')
         }else if(i==3){
-            addObj($(".picFrame>.picItem").eq(4),-830,1250,2000,'complete(4)')
+            addObj($(".picFrame>.picItem").eq(4),-830,1250,2500,'complete(4)')
         }else if(i==4){
-            addObj($(".picFrame>.picItem").eq(5),0,-1250,2000,'complete(5)')
+            addObj($(".picFrame>.picItem").eq(5),0,-1250,2500,'complete(5)')
         }else if(i==5){
-            addObj($(".picFrame>.picItem").eq(6),-830,-1250,2000,'complete(6)')
+            addObj($(".picFrame>.picItem").eq(6),-830,-1250,2500,'complete(6)')
         }else if(i==6){
-            addObj($(".picFrame>.picItem").eq(7),830,1250,2000,'complete(7)')
+            addObj($(".picFrame>.picItem").eq(7),830,1250,2500,'complete(7)')
         }else if(i==7){
-            addObj($(".picFrame>.picItem").eq(8),830,0,1000,'complete(8)')
+            addObj($(".picFrame>.picItem").eq(8),830,0,2500,'complete(8)')
         }else if(i==8){
-            addObj($(".picFrame>.picItem").eq(9),0,1250,1000,'complete(9)')
+            addObj($(".picFrame>.picItem").eq(9),0,1250,2500,'complete(9)')
         }else if(i==9){
-	    addObj($(".picFrame>.picItem").eq(10),-830,0,1000,'complete(10)')
+	    addObj($(".picFrame>.picItem").eq(10),-830,0,2500,'complete(10)')
         }else if(i==10){
-	    addObj($(".picFrame>.picItem").eq(11),830,-1250,1000,'complete(11)')
+	    addObj($(".picFrame>.picItem").eq(11),830,-1250,2500,'complete(11)')
         }else if(i==11){
-	    addObj($(".picFrame>.picItem").eq(12),-830,1250,1000,'complete(12)')
+	    addObj($(".picFrame>.picItem").eq(12),-830,1250,2500,'complete(12)')
         }else if(i==12){
-	    addObj($(".picFrame>.picItem").eq(13),0,-1250,1000,'complete(13)')
+	    addObj($(".picFrame>.picItem").eq(13),0,-1250,2500,'complete(13)')
         }else if(i==13){
-	    addObj($(".picFrame>.picItem").eq(13),0,0,1000,'complete(14)')
+	    addObj($(".picFrame>.picItem").eq(13),0,0,1500,'complete(14)')
         }else if(i==14){
-	    addObj($(".picFrame>.picItem").eq(12),0,0,1000,'complete(15)')
+	    addObj($(".picFrame>.picItem").eq(12),0,0,1500,'complete(15)')
         }else if(i==15){
-	    addObj($(".picFrame>.picItem").eq(11),0,0,1000,'complete(16)')
+	    addObj($(".picFrame>.picItem").eq(11),0,0,1500,'complete(16)')
         }else if(i==16){
-	    addObj($(".picFrame>.picItem").eq(10),0,0,1000,'complete(17)')
+	    addObj($(".picFrame>.picItem").eq(10),0,0,1500,'complete(17)')
         }else if(i==17){
-	    addObj($(".picFrame>.picItem").eq(9),0,0,1000,'complete(18)')
+	    addObj($(".picFrame>.picItem").eq(9),0,0,1500,'complete(18)')
         }else if(i==18){
-	    addObj($(".picFrame>.picItem").eq(8),0,0,1000,'complete(19)')
+	    addObj($(".picFrame>.picItem").eq(8),0,0,1500,'complete(19)')
         }else if(i==19){
-	    addObj($(".picFrame>.picItem").eq(7),0,0,1000,'complete(20)')
+	    addObj($(".picFrame>.picItem").eq(7),0,0,1500,'complete(20)')
         }else if(i==20){
-	    addObj($(".picFrame>.picItem").eq(6),0,0,1000,'complete(21)')
+	    addObj($(".picFrame>.picItem").eq(6),0,0,1500,'complete(21)')
         }else if(i==21){
-	    addObj($(".picFrame>.picItem").eq(5),0,0,1000,'complete(22)')
+	    addObj($(".picFrame>.picItem").eq(5),0,0,1500,'complete(22)')
         }else if(i==22){
-	    addObj($(".picFrame>.picItem").eq(4),0,0,1000,'complete(23)')
+	    addObj($(".picFrame>.picItem").eq(4),0,0,1500,'complete(23)')
         }else if(i==23){
-	    addObj($(".picFrame>.picItem").eq(3),0,0,1000,'complete(24)')
+	    addObj($(".picFrame>.picItem").eq(3),0,0,1500,'complete(24)')
         }else if(i==24){
-	    addObj($(".picFrame>.picItem").eq(2),0,0,1000,'complete(25)')
+	    addObj($(".picFrame>.picItem").eq(2),0,0,1500,'complete(25)')
         }else if(i==25){
-	    addObj($(".picFrame>.picItem").eq(1),0,0,1000,'complete(26)')
+	    addObj($(".picFrame>.picItem").eq(1),0,0,1500,'complete(26)')
         }else if(i==26){
-	    addObj($(".picFrame>.picItem").eq(0),0,0,1000,'complete(27)')
+	    addObj($(".picFrame>.picItem").eq(0),0,0,1500,'complete(27)')
         }else if(i==27){
 	    $("#next4").show();
         }
